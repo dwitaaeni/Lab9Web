@@ -177,7 +177,7 @@ php spark db:seed UserSeeder
 
 - Lalu, uji coba login nya dengan cara mengakses url http://localhost:8080/user/login seperti berikut:
 
-![Login Form](img/2.PNG)
+![Login Form](img/2.png)
 
 # Menambahkan Auth Filter
 - Selanjutnya membuat filter untuk halaman Admin. Buat file baru dengan nama Auth.php pada
@@ -222,7 +222,7 @@ class Auth implements FilterInterface
 
 - Dan uji coba akses menu admin, dengan cara buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka akan dimuculkan halaman login.
 
-![Login Admin](img/2.PNG)
+![Login Admin](img/2.png)
 
 # Fungsi Logout
 <p>Tambahkan method logout() pada Controller User seperti berikut:</p>
